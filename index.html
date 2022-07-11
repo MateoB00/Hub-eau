@@ -1,0 +1,56 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body>
+    <section>
+
+        <div>
+
+            <div>
+                <h1 id="titre" class="text-center mt-5 text-white">Température des eaux | Département : Garonne</h1>
+
+                <div class="text-center">
+                    <p id="ville" class="fs-3 text-white">Veuillez choisir un cours d'eau</p>
+
+                    <div id="temperature">
+                        <span id="temperature_label" class="text-white">
+                            xx.x
+                        </span> <span class="text-white">°C</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div id="container" class="d-flex justify-content-center ">
+            <select onchange='choice()' id="liste" style="background-color:#424242; color:#FFF">
+                <option>-- Selectionner --</option>
+            </select>
+        </div>
+
+
+        <div class="d-flex justify-content-center mt-5">
+            <div class="col-md-8 text-center ro">
+                <div id="changerDepartement"
+                    class="mt-2 text-center p-3 text-white font-weight-bold text-uppercase w-50 mx-auto">
+                    Changer de département
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

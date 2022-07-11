@@ -1,0 +1,25 @@
+html,
+body {
+    background: #2980B9;
+    background: -webkit-linear-gradient(to right, #181b1c, #0d4559, #196691);
+    background: linear-gradient(to right, #181b1c, #0d4559, #196691);
+    width: 100%
+}
+
+#ville {
+    text-transform: capitalize;
+}
+
+#temperature {
+    font-size: 4em;
+}
+
+#changerVille {
+    background: rgba(178, 223, 251, .3);
+    cursor: pointer;
+}
+
+#changerDepartement {
+    background: rgba(178, 223, 251, .3);
+    cursor: pointer;
+}
